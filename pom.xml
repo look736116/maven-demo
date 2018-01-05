@@ -4,18 +4,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.my.demo</groupId>
-    <artifactId>sourceControl</artifactId>
+    <groupId>com.sc.sourceControl</groupId>
+    <artifactId>sourceControl-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>springboot-study-all</name>
+    <name>sourceControl parent</name>
+    
     <modules>
         <module>demo1</module>
         <module>demo2</module>
         <module>demo3</module>
         <module>demo4</module>
         <module>demo5</module>
-        <module>demo6</module>
+        <module>group-sc-doc</module>
     </modules>
+    
   </project>
